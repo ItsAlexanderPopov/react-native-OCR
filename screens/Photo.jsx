@@ -15,7 +15,7 @@ const PhotoScreen = ({ route }) => {
                 console.log(filteredTexts);
                 setBlockTexts(filteredTexts);
             } catch (error) {
-                console.error('Error recognizing text:', error);
+                console.error('Error recognizing text: ', error);
             }
         };
         recognizeText();
